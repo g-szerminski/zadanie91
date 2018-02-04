@@ -12,12 +12,14 @@ function getTriangleArea(a, h) {
 	}
 	return triangleArea;
 }
-getTriangleArea(4, 30);
+//getTriangleArea(4, 20);
 
-/*function randomizeTriangleArea(triangle1Area, triangle2Area, triangle3Area) {
-	var triangle1Area = getTriangleArea(4, -10);
-	var triangle2Area = getTriangleArea(10, 25);
-	var triangle3Area = getTriangleArea(8, 19);
-	return random = randomizeTriangleArea;
+function TriangleArea(triangle1Area, triangle2Area, triangle3Area) {
+	var triangle1Area = getTriangleArea(10, 15);
+	console.log(triangle1Area);
+	var triangle2Area = getTriangleArea(-1, 22);
+	console.log(triangle2Area);
+	var triangle3Area = getTriangleArea(3, 7);
+	console.log(triangle3Area);
 }
-randomizeTriangleArea();*/
+TriangleArea();
