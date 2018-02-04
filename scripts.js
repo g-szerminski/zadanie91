@@ -3,8 +3,8 @@ function getTriangleArea(a, h) {
     	return 'Nieprawidłowe dane';
 	}
 	var triangleArea = (a * h / 2);
-	    console.log ('Pole trójkąta = ');
-		return triangleArea;
+	console.log ('Pole trójkąta = ');
+	return triangleArea;
 }
 var triangle1Area = getTriangleArea(10, 15);
 console.log(triangle1Area);
