@@ -6,9 +6,9 @@ function getTriangleArea(a, h) {
 	    console.log ('Pole trójkąta = ');
 		return triangleArea;
 }
-	var triangle1Area = getTriangleArea(10, 15);
-	console.log(triangle1Area);
-	var triangle2Area = getTriangleArea(-1, 22);
-	console.log(triangle2Area);
-	var triangle3Area = getTriangleArea(3, 7);
-	console.log(triangle3Area);
+var triangle1Area = getTriangleArea(10, 15);
+console.log(triangle1Area);
+var triangle2Area = getTriangleArea(-1, 22);
+console.log(triangle2Area);
+var triangle3Area = getTriangleArea(3, 7);
+console.log(triangle3Area);
