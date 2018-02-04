@@ -1,8 +1,8 @@
 function getTriangleArea(a, h) {
 	if (a <= 0 || h <= 0) { 
-    	return 'Nieprawidlowe dane';
+    	return 'Nieprawidłowe dane';
 	}
-	var triangleArea = (a*h/2);
+	var triangleArea = (a * h / 2);
 	    console.log ('Pole trójkąta = ');
 		return triangleArea;
 }
